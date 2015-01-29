@@ -9,13 +9,42 @@
 	<div class='forms-container'>
 		
 		<!-- Login Form -->
-		<div class='login-signup-form' ng-controller='loginCtrl'>
-			<!-- LOGIN FORM CODE GOES HERE -->
+		<div class="login-signup-form" ng-controller="loginCtrl">
+
+			<label for="email-login">Email Address</label>
+			<input type="email" class="form-control" id="email-login" placeholder="Enter email">
+
+			<label for="password-login">Password</label>
+			<input type="password" class="form-control" id="password-login" placeholder="Enter Password">
+
+			<button type="submit" class="btn btn-submit-login">Submit</button>
 		</div>
 
 		<!-- Signup Form -->
 		<div class='login-signup-form' ng-controller='signupCtrl'>
-		<!-- SIGNUP FORM CODE GOES HERE -->
+		    <label for="first-name-signup">First Name</label>
+		    <input type="first-name" class="form-control" id="first-name-signup" placeholder="First Name here">
+
+		    <label for="last-name-signup">Last Name</label>
+		    <input type="last-name" class="form-control" id="last-name-signup" placeholder="Last Name here">
+
+		    <label for="email-signup">Email Address</label>
+		    <input type="email" class="form-control" id="email-signup" placeholder="Email here">
+
+		    <label for="password-signup">Password</label>
+		    <input type="password" class="form-control" id="password-signup" placeholder="Password here">
+
+		    <label for="password-signup-repeat">Password Again</label>
+		    <input type="password" class="form-control" id="password-signup-repeat" placeholder="For Your Health!">
+
+		    <label for="male-radio">Male</label>
+		    <input type="radio" name="sex" value="male">
+
+		    <label for="female-radio">Female</label>
+		    <input type="radio" name="sex" value="female" checked>
+
+		    
+
 		</div>
 
 		
